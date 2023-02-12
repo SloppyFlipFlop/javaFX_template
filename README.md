@@ -13,8 +13,11 @@ This is github template mean’t to help students in CSE205 at Arizona State Uni
     - Linux for *aarch64, arm32, and x64*
 
 - ### [Java Profile](https://vscode.dev/profile/github/e744b3bf06217f783adcd7fafdd9c3eb)(optional)
+    you can import the profile by:
+    ![Screenshot 2023-02-12 at 2.05.00 AM.png](JavaFX%20in%20Visual%20Studio%20Code%20d1c52977e74b41da94056a8a0b698593/Screenshot%202023-02-12%20at%202.05.00%20AM.png)
+    and use this url: `https://vscode.dev/profile/github/e744b3bf06217f783adcd7fafdd9c3eb`
 
-    - An optional download, but will have necessary extensions for JavaFX projects, along with some other helpful extensions I use. If you decide you don’t want to download it. You’ll need to download the following extensions:
+    - An optional download, but will have necessary extensions for CSE205 Java and JavaFX projects, along with some other helpful extensions I use to make development easier. If you decide you don’t want to download it. You’ll need to download the following extension for javaFX development:
 
         ### ****[Extension Pack for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack)****
 
