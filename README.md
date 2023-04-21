@@ -1,58 +1,69 @@
 # Arizona State University CSE 205 - Visual Studio Code JavaFX template
 
-This is github template mean’t to help students in CSE205 at Arizona State University setup a non-modular JavaFX development environment in Visual Studio Code. 
+This is github template is mean’t to help students in CSE205 at Arizona State University setup a non-modular JavaFX development environment in Visual Studio Code.
 
 ## **Requirements**
 
-- ### [JavaFX SDK](https://gluonhq.com/products/javafx/)
-
+- [JavaFX SDK](https://gluonhq.com/products/javafx/)
     - MacOS for *Apple Silicon(x64) and Intel(aarch64)*
-
     - Windows for *x64 and x84*
-
     - Linux for *aarch64, arm32, and x64*
-
-- ### [Java Profile](https://vscode.dev/profile/github/e744b3bf06217f783adcd7fafdd9c3eb)(optional)
-    you can import the profile by:
-    ![Screenshot 2023-02-12 at 2.05.00 AM.png](JavaFX%20in%20Visual%20Studio%20Code%20d1c52977e74b41da94056a8a0b698593/Screenshot%202023-02-12%20at%202.05.00%20AM.png)
-    and use this url: `https://vscode.dev/profile/github/d15af3b728f1befc0d18a22e5875c5f6`
-
+- [Java Profile](https://vscode.dev/profile/github/b3fa920f460128aaf090ee6df788cc23)(optional)you can import the profile by:  and use this url: `https://vscode.dev/profile/github/b3fa920f460128aaf090ee6df788cc23`
+    
+    ![Screenshot 2023-02-12 at 2.05.00 AM.png](images/Screenshot_2023-02-12_at_2.05.00_AM.png)
+    
     - An optional download, but will have necessary extensions for CSE205 Java and JavaFX projects, along with some other helpful extensions I use to make development easier. If you decide you don’t want to download it. You’ll need to download the following extension for javaFX development:
-
-        ### ****[Extension Pack for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack)****
+        
+        [**Extension Pack for Java**](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack)
+        
 
 ## Setup
 
 ### 1.) **Create the Java project**
 
 - open the command palette and enter `Java: Create Java project...`, then select it.
-
-- ![Screenshot 2023-02-12 at 12.05.42 AM.png](JavaFX%20in%20Visual%20Studio%20Code%20d1c52977e74b41da94056a8a0b698593/Screenshot_2023-02-12_at_12.05.42_AM.png)
-
+    
+    ![Screenshot_2023-02-12_at_12.05.42_AM.png](images/Screenshot_2023-02-12_at_12.05.42_AM.png)
+    
 - select `No build tools` in the list as the project type.
-
-- ![Screenshot 2023-02-12 at 12.06.34 AM.png](JavaFX%20in%20Visual%20Studio%20Code%20d1c52977e74b41da94056a8a0b698593/Screenshot_2023-02-12_at_12.06.34_AM.png)
-
+    
+    ![Screenshot_2023-02-12_at_12.06.34_AM.png](images/Screenshot_2023-02-12_at_12.06.34_AM.png)
+    
 - Then name the project of the file(i.e `assignment_06`) and then select a target location where you want to store the new project.
-
-- ![Screenshot 2023-02-12 at 12.10.13 AM.png](JavaFX%20in%20Visual%20Studio%20Code%20d1c52977e74b41da94056a8a0b698593/Screenshot_2023-02-12_at_12.10.13_AM.png)
-
+    
+    ![Screenshot_2023-02-12_at_12.10.13_AM.png](images/Screenshot_2023-02-12_at_12.10.13_AM.png)
+    
 - From here, the newly created project will open in a new Visual Studio Code window.
 
 ### 2.) Add Java SDK library dependencies
 
 - To add JavaFX as dependencies to your project, you can simply copy all the jar files from the lib folder of your downloaded JavaFX SDK, for instance `/Users/your-user/Downloads/javafx-sdk-19/lib/` to the lib folder of your project.
-
-- ![Screenshot 2023-02-12 at 1.07.17 AM.png](JavaFX%20in%20Visual%20Studio%20Code%20d1c52977e74b41da94056a8a0b698593/Screenshot_2023-02-12_at_1.07.17_AM.png)
-
+    
+    ![Screenshot_2023-02-12_at_12.42.08_AM.png](images/Screenshot_2023-02-12_at_12.42.08_AM.png)
+    
+    ![Screenshot_2023-02-12_at_1.07.17_AM.png](images/Screenshot_2023-02-12_at_1.07.17_AM.png)
+    
 - Or alternatively, under `JAVA PROJECTS`, by the `Reference Libraries` click on the `+` sign and add the reference libraries needed for the project. In the 2 picture below, I’m adding all of the reference libraries in the Java SDK download.
-
-- ![Screenshot 2023-02-12 at 12.35.06 AM.png](JavaFX%20in%20Visual%20Studio%20Code%20d1c52977e74b41da94056a8a0b698593/Screenshot_2023-02-12_at_12.35.06_AM.png)
-
-- ![Screenshot 2023-02-12 at 12.42.08 AM.png](JavaFX%20in%20Visual%20Studio%20Code%20d1c52977e74b41da94056a8a0b698593/Screenshot_2023-02-12_at_12.42.08_AM.png)
+    
+    ![Screenshot_2023-02-12_at_12.35.06_AM.png](images/Screenshot_2023-02-12_at_12.35.06_AM.png)
+    
+    ![Screenshot_2023-02-12_at_12.42.08_AM.png](images/Screenshot_2023-02-12_at_12.42.08_AM%201.png)
+    
+    ![Screenshot_2023-02-12_at_12.46.17_AM.png](images/Screenshot_2023-02-12_at_12.46.17_AM.png)
+    
 
 - you know if they downloaded correctly if you can see the file in `Reference Libraries` section under `JAVA PROJECTS`.
 
-- ![Screenshot 2023-02-12 at 12.46.17 AM.png](JavaFX%20in%20Visual%20Studio%20Code%20d1c52977e74b41da94056a8a0b698593/Screenshot_2023-02-12_at_12.46.17_AM.png)
+### 3.) Configue Java Runtime
 
-### 3.) From here, you have everything you need to make an JavaFX project in Visual Studio Code. Just make sure all you source files aka `.java` files are in `/src`
+- The last thing you got to do is ensure that your java runtime is running java 8 aka `java 1.8`
+
+![Screenshot 2023-04-20 at 11.39.56 PM.png](images/Screenshot_2023-04-20_at_11.39.56_PM.png)
+
+![Screenshot 2023-04-20 at 11.41.14 PM.png](images/Screenshot_2023-04-20_at_11.41.14_PM.png)
+
+- If your java runtime isn’t running java verison `1.8`, chnage the verison to `1.8`
+
+![Screenshot 2023-04-20 at 11.43.19 PM.png](images/Screenshot_2023-04-20_at_11.43.19_PM.png)
+
+### 4.) From here, you have everything you need to make an JavaFX project in Visual Studio Code. Just make sure all you source files aka `.java` files are in `/src`
