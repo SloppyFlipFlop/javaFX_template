@@ -8,8 +8,9 @@ This is github template is mean’t to help students in CSE205 at Arizona State 
   - MacOS for _Apple Silicon(x64) and Intel(aarch64)_
   - Windows for _x64 and x84_
   - Linux for _aarch64, arm32, and x64_
-- [Java Profile](https://vscode.dev/profile/github/b3fa920f460128aaf090ee6df788cc23)(optional)you can import the profile by: and use this url: `https://vscode.dev/profile/github/b3fa920f460128aaf090ee6df788cc23`
-  ![Screenshot 2023-02-12 at 2.05.00 AM.png](images/Screenshot_2023-02-12_at_2.05.00_AM.png)
+- [Java Profile](https://vscode.dev/profile/github/b3fa920f460128aaf090ee6df788cc23)(optional)
+  - you can import the profile by use this url: `https://vscode.dev/profile/github/b3fa920f460128aaf090ee6df788cc23`
+    ![Screenshot 2023-02-12 at 2.05.00 AM.png](images/Screenshot_2023-02-12_at_2.05.00_AM.png)
   - An optional download, but will have necessary extensions for CSE205 Java and JavaFX projects, along with some other helpful extensions I use to make development easier. If you decide you don’t want to download it. You’ll need to download the following extension for javaFX development:
     [**Extension Pack for Java**](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack)
 
